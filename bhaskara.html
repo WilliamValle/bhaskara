@@ -1,0 +1,15 @@
+var bsk = function(a,b,c){
+	var delta = b*b-4*a*c;
+	if(delta<0){
+		console.log('No real roots');
+	}else{
+		var sqrtDelta = Math.sqrt(delta);
+		var X_ = (-b+sqrtDelta)/(2*a);
+		var X__ = (-b-sqrtDelta)/(2*a);
+		console.log(X_)
+		console.log(X__)
+	}
+}
+
+
+ a = 2 b = – 4 c = 0
